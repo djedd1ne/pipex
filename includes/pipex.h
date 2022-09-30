@@ -6,7 +6,7 @@
 /*   By: djmekki < djmekki@student.42heilbronn.d    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/30 04:42:48 by djmekki           #+#    #+#             */
-/*   Updated: 2022/09/30 21:34:36 by djmekki          ###   ########.fr       */
+/*   Updated: 2022/09/30 21:58:45 by djmekki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stdlib.h>
 # include <fcntl.h>
-# include "./Libft/libft.h"
+# include "../Libft/libft.h"
 # include <sys/wait.h>
 # include <string.h>
 # include <sys/types.h>

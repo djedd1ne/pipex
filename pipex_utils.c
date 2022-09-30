@@ -6,11 +6,11 @@
 /*   By: djmekki < djmekki@student.42heilbronn.d    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/30 05:32:02 by djmekki           #+#    #+#             */
-/*   Updated: 2022/09/30 21:33:27 by djmekki          ###   ########.fr       */
+/*   Updated: 2022/09/30 21:54:16 by djmekki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "./includes/pipex.h"
 
 char	**ft_split_path(char **envp)
 {

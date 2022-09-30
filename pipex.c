@@ -6,11 +6,11 @@
 /*   By: djmekki < djmekki@student.42heilbronn.d    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/30 21:27:37 by djmekki           #+#    #+#             */
-/*   Updated: 2022/09/30 21:38:15 by djmekki          ###   ########.fr       */
+/*   Updated: 2022/09/30 22:10:41 by djmekki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "./includes/pipex.h"
 
 void	execute(char *cmd, char **envp)
 {
@@ -57,7 +57,7 @@ void	execute_cmd1(char **argv, char **envp, int *fd)
 	execute(argv[2], envp);
 }
 
-void	excute_cmd2(char **argv, char **envp, int *fd)
+void	execute_cmd2(char **argv, char **envp, int *fd)
 {
 	int		fd_outfile;
 
