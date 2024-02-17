@@ -19,12 +19,12 @@ The infile file must be created before runing the program, pipex will create out
 ```bash
 ./pipex infile cmd1 cmd2 outfile
 ```
-###### Test:
-Create infile file using "touch"
+#### Test:
+&nbsp;Create infile file using "touch"
 ```bash
 touch infile
 ```
-Run 
+&nbsp;Run 
 ```bash
 ./pipex infile "ls -l" "wc -l" outfile
 ```
